@@ -2,6 +2,7 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
+  "gh-pages": "^2.0.1",
   "homepage": "https://shivamkansal.github.io/CAShubhamKansalCO/",
   "keywords": [
     "react",
