@@ -25,7 +25,7 @@ function TeamImages() {
                 <img
                   className="rounded"
                   alt="..."
-                  src={require("../assets/img/Pooja.jpg")}
+                  src={require("../assets/img/xyz.jfif")}
                 />
                 <h4 className="title" style={{ color: "#f96332" }}>
                   Full Name
@@ -39,7 +39,7 @@ function TeamImages() {
                   className="rounded"
                   style={{ color: "#f96332" }}
                   alt="..."
-                  src={require("../assets/img/Pooja.jpg")}
+                  src={require("../assets/img/xyz.jfif")}
                 />
                 <h4 className="title" style={{ color: "#f96332" }}>
                   Full Name
@@ -52,7 +52,7 @@ function TeamImages() {
                 <img
                   className="rounded"
                   alt="..."
-                  src={require("../assets/img/Pooja.jpg")}
+                  src={require("../assets/img/xyz.jfif")}
                 />
                 <h4 className="title" style={{ color: "#f96332" }}>
                   Full Name
@@ -65,7 +65,7 @@ function TeamImages() {
                 <img
                   className="rounded"
                   alt="..."
-                  src={require("../assets/img/Pooja.jpg")}
+                  src={require("../assets/img/xyz.jfif")}
                 />
                 <h4 className="title" style={{ color: "#f96332" }}>
                   Full Name
