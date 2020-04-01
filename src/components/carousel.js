@@ -54,7 +54,7 @@ function CarouselComponent() {
               onExited={onExited}
               key={item.src}
             >
-              <img src={item.src} alt={item.altText} />
+              <img style={{width: '100%'}} src={item.src} alt={item.altText} />
               <div className="carousel-caption d-none d-md-block">
                 <h5>{item.caption}</h5>
               </div>

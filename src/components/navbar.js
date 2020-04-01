@@ -21,8 +21,8 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faAddressCard,  } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAddressCard  } from '@fortawesome/free-solid-svg-icons'
 
 function IndexNav() {
   const [navbarColor, setNavbarColor] = useState("fixed-top bg-white");
@@ -49,15 +49,17 @@ function IndexNav() {
   });
   return (
     <>
-      {collapseOpen ? (
+      {/* {collapseOpen ? (
         <div
           id="bodyClick"
-          onClick={() => {
-            document.documentElement.classList.toggle("nav-open");
-            setCollapseOpen(false);
-          }}
+          // onClick={() => {
+          //   // document.getElementById.classList.toggle("nav-open");
+          //   document.getElementById("hamburger-dtu").classList.toggle("translate-dhruv");
+          //   console.log('me')
+          //   setCollapseOpen(false);
+          // }}
         />
-      ) : null}
+      ) : null} */}
       <Navbar
         className={navbarColor}
         expand="lg"
@@ -78,7 +80,9 @@ function IndexNav() {
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
-                document.documentElement.classList.toggle("nav-open");
+                // document.documentElement.classList.toggle("nav-open");
+                document.getElementById("hamburger-dtu").classList.toggle("translate-dhruv");
+                console.log('me')
                 setCollapseOpen(!collapseOpen);
               }}
               aria-expanded={collapseOpen}
@@ -90,8 +94,9 @@ function IndexNav() {
             </button>
           </div>
           <Collapse
-            className="justify-content-end"
-            isOpen={collapseOpen}
+            id="hamburger-dtu"
+            className="justify-content-end bg-shivam translate-dhruv"
+            isOpen={true}
             navbar
           >
             <Nav navbar style={{ fontSize: "140%" }}>
