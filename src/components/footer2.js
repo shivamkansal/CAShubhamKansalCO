@@ -5,10 +5,10 @@ import { Container } from "reactstrap";
 
 // core components
 
-function Footer() {
+function Footer2() {
   return (
     <>
-      <footer className="footer footer-default">
+      <footer className="footer" data-background-color="black">
         <Container>
           <nav>
             <ul>
@@ -51,4 +51,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footer2;

@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
-import "../assets/css/demo.css";
-import "../assets/css/now-ui-kit.css";
-import "../assets/css/bootstrap.min.css";
-import "../assets/css/nucleo-icons-page-styles.css";
-
 import {
+  Button,
   Collapse,
   DropdownToggle,
   DropdownMenu,
@@ -24,7 +19,7 @@ import {
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faAddressCard,  } from '@fortawesome/free-solid-svg-icons'
 
-function IndexNav() {
+function IndexNav2() {
   const [navbarColor, setNavbarColor] = useState("fixed-top bg-white");
   const [collapseOpen, setCollapseOpen] = useState(false);
 
@@ -108,10 +103,10 @@ function IndexNav() {
                   <p>ABOUT US</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem href="/#aboutus" to="/#aboutus">
+                  <DropdownItem to="/" tag={Link}>
                     Who are We?
                   </DropdownItem>
-                  <DropdownItem href="/#coreteam" to="/#coreteam">
+                  <DropdownItem to="/" tag={Link}>
                     Core Team
                   </DropdownItem>
                 </DropdownMenu>
@@ -158,17 +153,47 @@ function IndexNav() {
                   >
                     Company Law Matters Consultancy
                   </DropdownItem>
-                  <DropdownItem to="/services/Financial Services" tag={Link}>
+                  <DropdownItem to="/services/Financial-Services" tag={Link}>
                     Financial Services
                   </DropdownItem>
                   <DropdownItem to="/services/TIN-PAN-Facilitation" tag={Link}>
                     TIN-PAN Facilitation
                   </DropdownItem>
-                  <DropdownItem to="/services/GST" tag={Link}>
+                  <DropdownItem
+                    to="/services/GST"
+                    tag={Link}
+                  >
                     Goods & Service Tax(GST)
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+              {/* <UncontrolledDropdown nav>
+                <DropdownToggle
+                  caret
+                  color="default"
+                  href="#pablo"
+                  nav
+                  onClick={e => e.preventDefault()}
+                >
+                  <i
+                    style={{ paddingRight: "7px" }}
+                    className="fa fa-question-circle"
+                  />
+                  <p>FAQ's</p>
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem to="/" tag={Link}>
+                    SOON
+                  </DropdownItem>
+                  <DropdownItem
+                    href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
+                    target="_blank"
+                  >
+                    Soon
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown> */}
+
               <NavItem>
                 <NavLink to="/careers" tag={Link} style={{ color: "#000" }}>
                   <i
@@ -210,7 +235,7 @@ function IndexNav() {
                   id="twitter-tooltip"
                   style={{ color: "#000" }}
                 >
-                  <i className="fa fa-twitter" />
+                  <i className="fab fa-twitter" />
                   <p className="d-lg-none d-xl-none">Twitter</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
@@ -224,7 +249,7 @@ function IndexNav() {
                   id="facebook-tooltip"
                   style={{ color: "#000" }}
                 >
-                  <i className="fa fa-facebook" />
+                  <i className="fab fa-facebook" />
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
@@ -238,7 +263,7 @@ function IndexNav() {
                   id="instagram-tooltip"
                   style={{ color: "#000" }}
                 >
-                  <i className="fa fa-instagram" />
+                  <i className="fab fa-instagram" />
                   <p className="d-lg-none d-xl-none">Instagram</p>
                 </NavLink>
                 <UncontrolledTooltip target="#instagram-tooltip">
@@ -253,4 +278,4 @@ function IndexNav() {
   );
 }
 
-export default IndexNav;
+export default IndexNav2;
