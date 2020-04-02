@@ -74,7 +74,15 @@ function IndexNav() {
               id="navbar-brand"
               style={{ fontSize: "150%", color: "#000" }}
             >
-              CA Shubham Kansal & Co.
+            <img
+                  className="ca_logo_shivam"
+                  alt="..."
+                  src={require("../assets/img/ca.png")}
+                  />
+               <img
+                  alt="..."
+                  src={require("../assets/img/logoca.png")}
+                  />
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand" /> */}
             <button
