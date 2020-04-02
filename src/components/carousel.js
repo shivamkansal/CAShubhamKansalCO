@@ -46,7 +46,7 @@ function CarouselComponent() {
   };
   return (
     <>
-      <Carousel ride='carousel' interval={[2000, 'carousel', true]} activeIndex={activeIndex} next={next} previous={previous}>
+      <Carousel ride='carousel' interval={[3200, 'carousel', true]} activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators
           items={items}
           activeIndex={activeIndex}
