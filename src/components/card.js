@@ -27,7 +27,7 @@ function CardComponent() {
           </ScrollableAnchor>
           <h2 style={{ color: "#fff", fontWeight: "bold" }}>ABOUT US</h2>
           <CardText>
-            <p style={{ textAlign: "justify" , fontWeight: "bold" }} id="body">
+            <p style={{ textAlign: "justify" , fontWeight: "400" }} id="body">
               Shubham Kansal & Co. established in 2018 is a services firm that acts as the single-point contact for solutions 
               to complex Indian laws, regulations and taxation matters in a seamless, end to end manner with in-house Chartered Accountants, 
               Lawyers, MBAs and Company Secretaries.
@@ -44,7 +44,7 @@ function CardComponent() {
             </p>
           </CardText>
         </CardBody>
-        <CardFooter className="mb-2" style={{ fontSize: "120%" }}>
+        <CardFooter className="mb-2" style={{ fontSize: "120%", fontWeight: "600" }}>
           www.shubhamkansal&co.com | (+91)9810055653 | shubhamkansalcompany@gmail.com 
         </CardFooter>
       </Card>

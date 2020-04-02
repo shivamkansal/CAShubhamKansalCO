@@ -128,8 +128,8 @@ function IndexNav() {
                   onClick={e => e.preventDefault()}
                 >
                   {/* <i className="now-ui-icons arrows-1_cloud-download-93" /> */}
-                  <i style={{ paddingRight: '7px' }} className='fa fa-user' />
-                  <p>ABOUT US</p>
+                  <i style={{ paddingRight: '7px' }} className='fa fa-user fa-2x' />
+                  <p style={{fontSize: "0.8rem", fontWeight: "507"}}>ABOUT US</p>
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem href='/#aboutus' to='/#aboutus'>
@@ -144,15 +144,15 @@ function IndexNav() {
                 <DropdownToggle
                   caret
                   style={{ color: '#000' }}
-                  href='#pablo'
+                  href='/'
                   nav
                   onClick={e => e.preventDefault()}
                 >
                   <i
                     style={{ paddingRight: '7px' }}
-                    className='fa fa-briefcase'
+                    className='fa fa-briefcase fa-2x'
                   />
-                  <p>SERVICES</p>
+                  <p style={{fontSize: "0.8rem", fontWeight: "507"}}>SERVICES</p>
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem to='/services/Accounting-Services' tag={Link}>
@@ -197,18 +197,18 @@ function IndexNav() {
                 <NavLink to='/careers' tag={Link} style={{ color: '#000' }}>
                   <i
                     style={{ paddingRight: '7px' }}
-                    className='fa fa-user-plus'
+                    className='fa fa-user-plus fa-2x'
                   />
-                  <p>Careers</p>
+                  <p style={{fontSize: "0.8rem", fontWeight: "507"}}>Careers</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to='/contact' tag={Link} style={{ color: '#000' }}>
                   <i
                     style={{ paddingRight: '7px' }}
-                    className='fa fa-user-plus'
+                    className='fa fa-phone fa-2x'
                   />
-                  <p>Contact Us</p>
+                  <p style={{fontSize: "0.8rem", fontWeight: "507"}}>Contact Us</p>
                 </NavLink>
               </NavItem>
 
@@ -234,8 +234,8 @@ function IndexNav() {
                   id='twitter-tooltip'
                   style={{ color: '#000' }}
                 >
-                  <i className='fa fa-twitter' />
-                  <p className='d-lg-none d-xl-none'>Twitter</p>
+                  <i className='fa fa-twitter fa-2x' />
+                  <p style={{fontSize: "0.8rem", fontWeight: "507"}} className='d-lg-none d-xl-none'>Twitter</p>
                 </NavLink>
                 <UncontrolledTooltip target='#twitter-tooltip'>
                   Follow us on Twitter
@@ -248,8 +248,8 @@ function IndexNav() {
                   id='facebook-tooltip'
                   style={{ color: '#000' }}
                 >
-                  <i className='fa fa-facebook' />
-                  <p className='d-lg-none d-xl-none'>Facebook</p>
+                  <i className='fa fa-facebook fa-2x' />
+                  <p style={{fontSize: "0.8rem", fontWeight: "507"}} className='d-lg-none d-xl-none'>Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target='#facebook-tooltip'>
                   Like us on Facebook
@@ -262,8 +262,8 @@ function IndexNav() {
                   id='instagram-tooltip'
                   style={{ color: '#000' }}
                 >
-                  <i className='fa fa-instagram' />
-                  <p className='d-lg-none d-xl-none'>Instagram</p>
+                  <i className='fa fa-instagram fa-2x' />
+                  <p style={{fontSize: "0.8rem", fontWeight: "507"}} className='d-lg-none d-xl-none'>Instagram</p>
                 </NavLink>
                 <UncontrolledTooltip target='#instagram-tooltip'>
                   Follow us on Instagram

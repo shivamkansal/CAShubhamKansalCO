@@ -5,7 +5,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 import { Container, Row, Col } from 'reactstrap';
 import '../assets/css/demo.css';
 // core components
-configureAnchors({ offset: -100, scrollDuration: 100 });
+configureAnchors({ offset: -105, scrollDuration: 100 });
 function TeamImages() {
   return (
     <>
