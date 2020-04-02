@@ -75,7 +75,7 @@ export default class Careers extends React.Component {
           message: "",
           fileURL: ""
         });
-        this.props.history.push("/contact");
+        this.props.history.push("/");
       })
       .catch(error => {
         console.error("Error adding document: ", error);
