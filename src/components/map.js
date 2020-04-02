@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import GoogleMapReact from "google-map-react";
-// import Iframe from "react-iframe";
+import Iframe from "react-iframe";
 
 // const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -20,7 +20,7 @@ class SimpleMap extends Component {
           className="container"
           style={{ textAlign: "center", paddingTop: "2%" }}
         >
-          <i className="fa fa-search-location fa-5x" />
+          <i className="fa fa-map-marker fa-5x" />
           <h2 style={{ fontWeight: "bold", color: "#000" }}>LOCATE US</h2>
           <iframe
             title="map"

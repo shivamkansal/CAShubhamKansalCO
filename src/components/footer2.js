@@ -14,7 +14,7 @@ function Footer2() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=nukr-default-footer"
+                  href="/"
                   target="blank"
                 >
                   CA Shubham Kansal & Co.
@@ -22,7 +22,7 @@ function Footer2() {
               </li>
               <li>
                 <a
-                  href="http://presentation.creative-tim.com?ref=nukr-default-footer"
+                  href="/"
                   target="blank"
                 >
                   About Us
@@ -30,7 +30,7 @@ function Footer2() {
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com?ref=nukr-default-footer"
+                  href="/"
                   target="blank"
                 >
                   Contact
@@ -41,7 +41,7 @@ function Footer2() {
           <div className="copyright" id="copyright">
             © {new Date().getFullYear()}, Designed & Coded by{" "}
             <a href="www.google.com" target="blank">
-              PLACE VALUE
+              Shubham Kansal & Co.
             </a>
             .
           </div>

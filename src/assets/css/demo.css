@@ -73,6 +73,14 @@
   align-items: center;
 }
 
+.ca_logo_shivam{
+  max-height: 50px;
+  
+}
+
+.navbarColor_shivam{
+  background-color: #4262B2;
+}
 .typography-line span {
   bottom: 10px;
   color: #c0c1c2;

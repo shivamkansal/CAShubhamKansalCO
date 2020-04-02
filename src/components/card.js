@@ -6,12 +6,12 @@ import { Card, CardBody, CardText, CardFooter } from "reactstrap";
 
 // import "../assets/css/fontstyle.css";
 
-configureAnchors({ offset: -100, scrollDuration: 100 });
+configureAnchors({ offset: -90, scrollDuration: 100 });
 
 function CardComponent() {
   const cardStyle = {
     marginTop: "10px",
-    backgroundColor: "#004974",
+    backgroundColor: "#4262B2",
     color: "#fff"
   };
 

@@ -8,21 +8,22 @@ import { Container } from "reactstrap";
 function Footer() {
   return (
     <>
-      <footer className="footer footer-default">
+    <footer className="footer" data-background-color="black">
         <Container>
           <nav>
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=nukr-default-footer"
+                  href="/"
                   target="blank"
+                  
                 >
-                  CA Shubham Kansal & Co.
+                CA Shubham Kansal & Co.
                 </a>
               </li>
               <li>
                 <a
-                  href="http://presentation.creative-tim.com?ref=nukr-default-footer"
+                  href="/"
                   target="blank"
                 >
                   About Us
@@ -30,7 +31,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com?ref=nukr-default-footer"
+                  href="/contact"
                   target="blank"
                 >
                   Contact
@@ -40,8 +41,8 @@ function Footer() {
           </nav>
           <div className="copyright" id="copyright">
             © {new Date().getFullYear()}, Designed & Coded by{" "}
-            <a href="www.google.com" target="blank">
-              PLACE VALUE
+            <a href="/" target="blank">
+              Shubham Kansal & Co.
             </a>
             .
           </div>
