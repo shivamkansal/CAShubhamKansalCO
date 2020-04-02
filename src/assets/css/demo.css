@@ -26,6 +26,9 @@
   #root {
     overflow-x: hidden;
   }
+  .container {
+    height: 100%;
+  }
   #navbar-brand {
     padding-left: 1rem !important;
   }
