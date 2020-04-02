@@ -3,7 +3,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import { configureAnchors } from "react-scrollable-anchor";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-
+import "../assets/css/demo.css";
 // core components
 configureAnchors({ offset: -100, scrollDuration: 100 });
 function TeamImages() {
@@ -24,13 +24,14 @@ function TeamImages() {
               <div>
                 <img
                   className="rounded"
+                  className="shivam_img"
                   alt="..."
-                  src={require("../assets/img/xyz.jfif")}
+                  src={require("../assets/img/Shubham.jpg")}
                 />
                 <h4 className="title" style={{ color: "#f96332" }}>
-                  Full Name
+                  CA Shubham Kansal
                 </h4>
-                <p className="category text-info">Designation</p>
+                <p className="category text-info">Partner</p>
               </div>
             </Col>
             <Col md="3">
@@ -39,15 +40,15 @@ function TeamImages() {
                   className="rounded"
                   style={{ color: "#f96332" }}
                   alt="..."
-                  src={require("../assets/img/xyz.jfif")}
+                  src={require("../assets/img/Pooja.jpg")}
                 />
                 <h4 className="title" style={{ color: "#f96332" }}>
-                  Full Name
+                  CA Pooja
                 </h4>
-                <p className="category text-info">Designation</p>
+                <p className="category text-info">Partner</p>
               </div>
             </Col>
-            <Col md="3">
+            {/* <Col md="3">
               <div>
                 <img
                   className="rounded"
@@ -72,7 +73,7 @@ function TeamImages() {
                 </h4>
                 <p className="category text-info">Designation</p>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>
