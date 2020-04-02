@@ -4,20 +4,20 @@ import React from "react";
 import { Carousel, CarouselItem, CarouselIndicators } from "reactstrap";
 
 import "../assets/css/demo.css";
-import "../assets/css/now-ui-kit.css";
-import "../assets/css/bootstrap.min.css";
-import "../assets/css/nucleo-icons-page-styles.css";
+// import "../assets/css/now-ui-kit.css";
+// import "../assets/css/bootstrap.min.css";
+// import "../assets/css/nucleo-icons-page-styles.css";
 
 // core components
 const items = [
   {
-    src: require("../assets/img/1.jfif")
+    src: require("../assets/img/1.png")
   },
   {
-    src: require("../assets/img/2.jfif")
+    src: require("../assets/img/2.1.jpg")
   },
   {
-    src: require("../assets/img/3.jfif")
+    src: require("../assets/img/3.jpg")
   }
 ];
 

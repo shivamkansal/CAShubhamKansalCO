@@ -92,7 +92,7 @@ export default class ContactForm extends React.Component {
                 name="phone"
                 id="phone1"
                 placeholder="Phone*"
-                type="text"
+                type="number"
                 required
                 class="input-text1 full-width"
                 data-required="true"
