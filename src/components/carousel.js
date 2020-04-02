@@ -3,6 +3,11 @@ import React from "react";
 // reactstrap components
 import { Carousel, CarouselItem, CarouselIndicators } from "reactstrap";
 
+import "../assets/css/demo.css";
+import "../assets/css/now-ui-kit.css";
+import "../assets/css/bootstrap.min.css";
+import "../assets/css/nucleo-icons-page-styles.css";
+
 // core components
 const items = [
   {
@@ -54,7 +59,7 @@ function CarouselComponent() {
               onExited={onExited}
               key={item.src}
             >
-              <img style={{width: '100%'}} src={item.src} alt={item.altText} />
+              <img className="shivam_carousel" src={item.src} alt={item.altText} />
               <div className="carousel-caption d-none d-md-block">
                 <h5>{item.caption}</h5>
               </div>

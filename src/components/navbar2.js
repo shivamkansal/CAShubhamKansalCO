@@ -114,10 +114,10 @@ function IndexNav() {
                   <p>ABOUT US</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem href="/#aboutus" to="/#aboutus">
+                  <DropdownItem href="/" to="/">
                     Who are We?
                   </DropdownItem>
-                  <DropdownItem href="/#coreteam" to="/#coreteam">
+                  <DropdownItem href="/" to="/">
                     Core Team
                   </DropdownItem>
                 </DropdownMenu>

@@ -3,6 +3,7 @@ import firebase from "../components/Firebase";
 
 //components
 import IndexNav2 from "../components/navbar2";
+import IndexHeader from "../components/IndexHeader";
 import Footer from "../components/footer2";
 import Carousel from "../components/carousel";
 // import ContactForm from "../components/form";
@@ -58,9 +59,10 @@ export default class Contact extends React.Component {
     return (
       <>
         <IndexNav2 />
-        <div className="page-header clear-filter" filter-color="blue">
-          <Carousel className="page-header-image" />
-        </div>
+        {/* <div className="page-header clear-filter" filter-color="blue">
+          <Carousel className="page-header" />
+        </div> */}
+        <IndexHeader />
         <div class="container">
           <div id="main">
             <div class="ggala1">

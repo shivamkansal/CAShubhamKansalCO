@@ -814,7 +814,6 @@ button, a.button {
 button {
   font-size: 0.9167em;
   font-weight: bold;
-  background: #98ce44;
   height: 34px;
   line-height: 34px; }
   button:hover {
@@ -3862,7 +3861,6 @@ ul.check-circle li:before {
     button {
       font-size: 0.9167em;
       font-weight: bold;
-      background: #98ce44;
       height: 34px;
       line-height: 34px; }
       button:hover {

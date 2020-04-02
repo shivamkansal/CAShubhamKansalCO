@@ -4216,7 +4216,7 @@ img {
   padding-top: 20vh; }
 
 .page-header {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   max-height: 999px;
   padding: 0;
   color: #FFFFFF;
@@ -5172,8 +5172,7 @@ img {
 @media screen and (max-width: 576px) {
   .navbar[class*='navbar-expand-'] .container {
     margin-left: 0;
-    margin-right: 0;
-    position: fixed }
+    margin-right: 0;}
   .footer .copyright {
     text-align: center; }
   .section-nucleo-icons .icons-container i {
@@ -5956,3 +5955,4 @@ td.rdtYear:hover {
   .nav-tabs {
     padding-left: 10px;
     padding-right: 10px; } }
+

@@ -5,6 +5,7 @@ import FileUploader from "react-firebase-file-uploader";
 //components
 
 import IndexNav2 from "../components/navbar2";
+import IndexHeader from "../components/IndexHeader";
 
 import Footer from "../components/footer2";
 
@@ -139,9 +140,10 @@ export default class Careers extends React.Component {
       <>
         <IndexNav2 />
 
-        <div className="page-header clear-filter" filter-color="blue">
-          <Carousel className="page-header-image" />
-        </div>
+        {/* <div className="page-header clear-filter" filter-color="blue">
+          <Carousel className="page-header" />
+        </div> */}
+        <IndexHeader />
 
         <div class="container">
           <div id="main">

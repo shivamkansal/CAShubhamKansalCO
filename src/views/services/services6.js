@@ -6,6 +6,7 @@ import { Row, Col } from "reactstrap";
 import IndexNav2 from "../../components/navbar2";
 import Footer from "../../components/footer2";
 import ContactForm from "../../components/form";
+import IndexHeader from "../../components/IndexHeader";
 import Carousel from "../../components/carousel";
 import MainPage from "./mainPage";
 
@@ -13,9 +14,7 @@ function Services6() {
   return (
     <>
       <IndexNav2 />
-      <div className="page-header clear-filter" filter-color="blue">
-        <Carousel className="page-header-image" />
-      </div>
+      <IndexHeader />
       <Row>
         <Col md="3">
           <MainPage />

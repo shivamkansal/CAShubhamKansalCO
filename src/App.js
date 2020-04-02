@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 import protectedRoutes from "./components/protectedRoutes";
 import ProtectedRouteHoc from "./components/ProtectedRouteHoc";
 import { useEffect } from "react";
