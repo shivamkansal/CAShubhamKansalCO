@@ -5172,7 +5172,8 @@ img {
 @media screen and (max-width: 576px) {
   .navbar[class*='navbar-expand-'] .container {
     margin-left: 0;
-    margin-right: 0; }
+    margin-right: 0;
+    position: fixed }
   .footer .copyright {
     text-align: center; }
   .section-nucleo-icons .icons-container i {

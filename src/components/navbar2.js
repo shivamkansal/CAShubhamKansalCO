@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
+import "../assets/css/demo.css";
+import "../assets/css/now-ui-kit.css";
+import "../assets/css/bootstrap.min.css";
+import "../assets/css/nucleo-icons-page-styles.css";
+
 import {
-  Button,
   Collapse,
   DropdownToggle,
   DropdownMenu,
@@ -16,10 +21,10 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faAddressCard,  } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAddressCard  } from '@fortawesome/free-solid-svg-icons'
 
-function IndexNav2() {
+function IndexNav() {
   const [navbarColor, setNavbarColor] = useState("fixed-top bg-white");
   const [collapseOpen, setCollapseOpen] = useState(false);
 
@@ -44,15 +49,17 @@ function IndexNav2() {
   });
   return (
     <>
-      {collapseOpen ? (
+      {/* {collapseOpen ? (
         <div
           id="bodyClick"
-          onClick={() => {
-            document.documentElement.classList.toggle("nav-open");
-            setCollapseOpen(false);
-          }}
+          // onClick={() => {
+          //   // document.getElementById.classList.toggle("nav-open");
+          //   document.getElementById("hamburger-dtu").classList.toggle("translate-dhruv");
+          //   console.log('me')
+          //   setCollapseOpen(false);
+          // }}
         />
-      ) : null}
+      ) : null} */}
       <Navbar
         className={navbarColor}
         expand="lg"
@@ -73,20 +80,24 @@ function IndexNav2() {
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
-                document.documentElement.classList.toggle("nav-open");
+                // document.documentElement.classList.toggle("nav-open");
+                document.getElementById("hamburger-dtu").classList.toggle("translate-dhruv");
+                console.log('me')
                 setCollapseOpen(!collapseOpen);
               }}
               aria-expanded={collapseOpen}
               type="button"
             >
+            <i style={{ paddingRight: "7px" }} className="fa fa-bars" />
               <span className="navbar-toggler-bar top-bar" />
               <span className="navbar-toggler-bar middle-bar" />
               <span className="navbar-toggler-bar bottom-bar" />
             </button>
           </div>
           <Collapse
-            className="justify-content-end"
-            isOpen={collapseOpen}
+            id="hamburger-dtu"
+            className="justify-content-end bg-shivam translate-dhruv"
+            isOpen={true}
             navbar
           >
             <Nav navbar style={{ fontSize: "140%" }}>
@@ -103,10 +114,10 @@ function IndexNav2() {
                   <p>ABOUT US</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem to="/" tag={Link}>
+                  <DropdownItem href="/#aboutus" to="/#aboutus">
                     Who are We?
                   </DropdownItem>
-                  <DropdownItem to="/" tag={Link}>
+                  <DropdownItem href="/#coreteam" to="/#coreteam">
                     Core Team
                   </DropdownItem>
                 </DropdownMenu>
@@ -153,47 +164,17 @@ function IndexNav2() {
                   >
                     Company Law Matters Consultancy
                   </DropdownItem>
-                  <DropdownItem to="/services/Financial-Services" tag={Link}>
+                  <DropdownItem to="/services/Financial Services" tag={Link}>
                     Financial Services
                   </DropdownItem>
                   <DropdownItem to="/services/TIN-PAN-Facilitation" tag={Link}>
                     TIN-PAN Facilitation
                   </DropdownItem>
-                  <DropdownItem
-                    to="/services/GST"
-                    tag={Link}
-                  >
+                  <DropdownItem to="/services/GST" tag={Link}>
                     Goods & Service Tax(GST)
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              {/* <UncontrolledDropdown nav>
-                <DropdownToggle
-                  caret
-                  color="default"
-                  href="#pablo"
-                  nav
-                  onClick={e => e.preventDefault()}
-                >
-                  <i
-                    style={{ paddingRight: "7px" }}
-                    className="fa fa-question-circle"
-                  />
-                  <p>FAQ's</p>
-                </DropdownToggle>
-                <DropdownMenu>
-                  <DropdownItem to="/" tag={Link}>
-                    SOON
-                  </DropdownItem>
-                  <DropdownItem
-                    href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
-                    target="_blank"
-                  >
-                    Soon
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown> */}
-
               <NavItem>
                 <NavLink to="/careers" tag={Link} style={{ color: "#000" }}>
                   <i
@@ -235,7 +216,7 @@ function IndexNav2() {
                   id="twitter-tooltip"
                   style={{ color: "#000" }}
                 >
-                  <i className="fab fa-twitter" />
+                  <i className="fa fa-twitter" />
                   <p className="d-lg-none d-xl-none">Twitter</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
@@ -249,7 +230,7 @@ function IndexNav2() {
                   id="facebook-tooltip"
                   style={{ color: "#000" }}
                 >
-                  <i className="fab fa-facebook" />
+                  <i className="fa fa-facebook" />
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
@@ -263,7 +244,7 @@ function IndexNav2() {
                   id="instagram-tooltip"
                   style={{ color: "#000" }}
                 >
-                  <i className="fab fa-instagram" />
+                  <i className="fa fa-instagram" />
                   <p className="d-lg-none d-xl-none">Instagram</p>
                 </NavLink>
                 <UncontrolledTooltip target="#instagram-tooltip">
@@ -278,4 +259,4 @@ function IndexNav2() {
   );
 }
 
-export default IndexNav2;
+export default IndexNav;

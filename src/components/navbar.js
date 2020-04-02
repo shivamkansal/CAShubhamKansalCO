@@ -88,6 +88,7 @@ function IndexNav() {
               aria-expanded={collapseOpen}
               type="button"
             >
+            <i style={{ paddingRight: "7px" }} className="fa fa-bars" />
               <span className="navbar-toggler-bar top-bar" />
               <span className="navbar-toggler-bar middle-bar" />
               <span className="navbar-toggler-bar bottom-bar" />
