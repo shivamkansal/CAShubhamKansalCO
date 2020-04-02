@@ -19,19 +19,22 @@
   max-height: 300px !important;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 991px) {
   .navbar {
     padding: 0 !important;
   }
+  #root {
+    overflow-x: hidden;
+  }
   #navbar-brand {
-    padding: 1rem !important;
+    padding-left: 1rem !important;
   }
   .bg-shivam {
     background: whitesmoke;
     transition: all 1s;
   }
   .translate-dhruv {
-    transform: translateX(450px);
+    transform: translateX(1450px);
   }
   .navbar-translate {
     width: 100%;
@@ -41,6 +44,16 @@
   }
   .navbar-nav .dropdown-menu {
     position: absolute !important;
+  }
+  .navbar-toggler {
+    margin-right: 1rem;
+    background-color: transparent;
+  }
+  .navbar-toggler:hover {
+    background-color: transparent;
+  }
+  button:hover {
+    background: none;
   }
 }
 
