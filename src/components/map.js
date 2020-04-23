@@ -15,7 +15,7 @@ class SimpleMap extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "gray", paddingBottom: "2%" }}>
+      <div style={{ backgroundColor: "rgb(217,217,217)", paddingBottom: "2%" }}>
         <div
           className="container"
           style={{ textAlign: "center", paddingTop: "2%" }}
@@ -24,7 +24,7 @@ class SimpleMap extends Component {
           <h2 style={{ fontWeight: "bold", color: "#000" }}>LOCATE US</h2>
           <iframe
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.973621323103!2d77.27336381492327!3d28.630552682418585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd931a153c63%3A0x39fd9f9fd4a4aa1c!2sCA%20SHUBHAM%20KANSAL%20%26%20CO.!5e0!3m2!1sen!2sin!4v1585085592105!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3501.9744037678906!2d77.27333181508257!3d28.63052923241853!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd3395fa3099%3A0xbc018a21c76e45ae!2sSHUBHAM%20KANSAL%20%26%20CO.!5e0!3m2!1sen!2sin!4v1587579252228!5m2!1sen!2sin"
             width="100%"
             height="600"
             frameBorder="0"

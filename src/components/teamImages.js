@@ -27,7 +27,7 @@ function TeamImages() {
                   className='rounded'
                   className='shivam_img'
                   alt='...'
-                  src={require('../assets/img/Shubham.jpg')}
+                  src={require('../assets/img/shubham.jpeg')}
                 />
                 <h4 className='title' style={{ color: '#f96332' }}>
                   CA Shubham Kansal
